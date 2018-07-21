@@ -5,6 +5,15 @@
 var jaymeh = {
     isOneOrMore: function(data, count){
         count = parseInt(count);
+        
+        if(data[data.length - 1] === "y"){
+            if(count === 1){
+                return count + " " + data; 
+            }else{
+                return count + " " + data.substr(0, data.length-1) + "ies"; 
+            }
+        }
+
         if(count === 1){
             return count + " " + data; 
         }else{
