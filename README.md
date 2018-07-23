@@ -1,21 +1,31 @@
-# utility-js
-It is a helper library for common methods and data manipulation.
+# Utility Js
+Ever day functions used in web development. 
+
 
 # Usage
-Just Download it and include it in your project and rerence it.
+Download it and include it in your page.
 
 # Methods
 
-## isOneOrMore(string, number); // appends character "s" to the string passed on the basis of the number passed 
+`oneOrMore(string, number)`
+####Arguments
+string
+number
+####Returns
+It returns a string.
 
-## getAbsoluteUrl('/your-path'); // retruns absolute url with your applied path => https://host/your-path
+####Example
+
+```javascript
+oneOrMore(string, number) => returns string 3 pens of type string
+```
+
+[========]
 
 
-## once(fn, context) 
-// Usage
-var canOnlyFireOnce = once(function() {
-	console.log('Fired!');
-});
 
-canOnlyFireOnce(); // "Fired!"
-canOnlyFireOnce(); // nada
+
+
+
+
+
