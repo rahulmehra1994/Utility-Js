@@ -22,7 +22,6 @@ It returns a string.
 oneOrMore(string, number) => returns string 3 pens of type string
 ```
 
-========
 
 
 
