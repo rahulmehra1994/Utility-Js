@@ -8,13 +8,15 @@ Download it and include it in your page.
 # Methods
 
 `oneOrMore(string, number)`
-####Arguments
+
+#### Arguments
 string
 number
-####Returns
+
+#### Returns
 It returns a string.
 
-####Example
+#### Example
 
 ```javascript
 oneOrMore(string, number) => returns string 3 pens of type string
